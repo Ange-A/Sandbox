@@ -1,7 +1,6 @@
 #function for the guess the number game
 from random import randint
 
-
 num = randint(0,10)
 guess = None
 
