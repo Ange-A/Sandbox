@@ -85,6 +85,23 @@ student_name_2 = 'Parker'
 
 
 #dictionary for records of students
-records= {}
+records= {'Itika: 90', 'Arshia': 92, 'Peter': 46}
+
+
+def marks(student_name):
+    for a_student in records:
+        if a_student == student_name:
+            return records[a_student]
+    else:
+        return f"There is no student named {student_name} in the records."
+
+
+def marks(student_name):
+    for a_student in record:
+        if a_student == student_name:
+           return records[a_student]
+        break
+  else:
+    return f 'there is no student of name {student_name} in the records'
 
 
